@@ -114,21 +114,26 @@ body{
 
 /* About Page */
 
+.one-column-wrapper {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .two-column-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .profile-image-wrapper {
-  width: 70%;
+  width: 100%;
   background-size: cover;
   background-position: center;
-  background-position: top;
   background-repeat: no-repeat;
 }
 
 .profile-content-wrapper {
-  padding: 500 px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .profile-content-wrapper h1 {
