@@ -117,7 +117,7 @@ body{
 .one-column-wrapper {
   padding-left: 50px;
   padding-right: 50px;
-  li:not(:last-child) {margin-bottom: 50px;}
+  ol:not(:last-child) {margin-bottom: 50px;}
 }
 
 .two-column-wrapper {
